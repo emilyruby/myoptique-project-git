@@ -1,0 +1,29 @@
+[{
+    "model": "metrix.department",
+    "pk": 1,
+    "fields": {
+        "name": "Tech"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 2,
+    "fields": {
+        "name": "SEO"
+    }
+}, {
+    "model": "metrix.metric",
+    "pk": 1,
+    "fields": {
+        "name": "uptime",
+        "desc": "Is the server up?",
+        "department": 1
+    }
+}, {
+    "model": "metrix.metric",
+    "pk": 2,
+    "fields": {
+        "name": "Clicks",
+        "desc": "How many clicks are we getting?",
+        "department": 2
+    }
+}]
