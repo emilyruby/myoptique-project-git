@@ -18,11 +18,13 @@ class Query(graphene.AbstractType):
     department = graphene.Field(DepartmentType,
                                 id=graphene.Int(),
                                 name=graphene.String())
+
     all_departments = graphene.List(DepartmentType)
 
     metric = graphene.Field(MetricType,
-                                id=graphene.Int(),
-                                name=graphene.String())
+                            id=graphene.Int(),
+                            name=graphene.String())
+
     all_metrics = graphene.List(MetricType)
 
     def resolve_all_departments(self, args, context, info):
