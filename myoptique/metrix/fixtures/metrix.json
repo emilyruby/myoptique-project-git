@@ -11,6 +11,36 @@
         "name": "SEO"
     }
 }, {
+    "model": "metrix.department",
+    "pk": 3,
+    "fields": {
+        "name": "Internationals"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 4,
+    "fields": {
+        "name": "Finance"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 5,
+    "fields": {
+        "name": "Marketing SRO"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 6,
+    "fields": {
+        "name": "Marketing CRM"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 7,
+    "fields": {
+        "name": "Designers"
+    }
+}, {
     "model": "metrix.metric",
     "pk": 1,
     "fields": {
