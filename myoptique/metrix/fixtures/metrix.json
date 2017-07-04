@@ -2,13 +2,85 @@
     "model": "metrix.department",
     "pk": 1,
     "fields": {
-        "name": "Tech"
+        "name": "GD",
+        "part_of":"Customer Service"
     }
 }, {
     "model": "metrix.department",
     "pk": 2,
     "fields": {
-        "name": "SEO"
+        "name": "SGS",
+        "part_of":"Customer Service"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 3,
+    "fields": {
+        "name": "EWB",
+        "part_of":"Customer Service"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 4,
+    "fields": {
+        "name": "SEO",
+        "part_of":"Marketing"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 5,
+    "fields": {
+        "name": "CRM",
+        "part_of":"Marketing"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 6,
+    "fields": {
+        "name": "UX",
+        "part_of":"Marketing"
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 7,
+    "fields": {
+        "name": "Buying and Merch",
+        "part_of":""
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 8,
+    "fields": {
+        "name": "Internationals",
+        "part_of":""
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 9,
+    "fields": {
+        "name": "Products",
+        "part_of":""
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 10,
+    "fields": {
+        "name": "Designers",
+        "part_of":""
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 11,
+    "fields": {
+        "name": "Warehouse",
+        "part_of":""
+    }
+}, {
+    "model": "metrix.department",
+    "pk": 12,
+    "fields": {
+        "name": "Tech",
+        "part_of":""
     }
 }, {
     "model": "metrix.metric",
@@ -16,7 +88,9 @@
     "fields": {
         "name": "uptime",
         "desc": "Is the server up?",
-        "department": 1
+        "department": 1,
+        "curr_val":"3%",
+        "color":"red"
     }
 }, {
     "model": "metrix.metric",
@@ -24,6 +98,28 @@
     "fields": {
         "name": "Clicks",
         "desc": "How many clicks are we getting?",
-        "department": 2
+        "department": 2,
+        "curr_val":"3%",
+        "color":"red"
+    }
+}, {
+    "model": "metrix.metric",
+    "pk": 3,
+    "fields": {
+        "name": "a",
+        "desc": "Is the server up?",
+        "department": 1,
+        "curr_val":"3%",
+        "color":"red"
+    }
+}, {
+    "model": "metrix.metric",
+    "pk": 4,
+    "fields": {
+        "name": "b",
+        "desc": "How many clicks are we getting?",
+        "department": 4,
+        "curr_val":"3%",
+        "color":"red"
     }
 }]
